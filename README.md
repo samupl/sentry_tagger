@@ -1,5 +1,9 @@
 # Sentry exception tagger
 
+**Note**: This is just a proof of concept, this isn't meant to be used in production. It isn't
+properly packaged for distribution, nor does it contain proper setting handling right now.
+
+
 Used to "automatically" add an `actionability` tag to sentry events.
 
 The `actionability` tag decides whether or not an error is caused by the system (e.g. it's a real
